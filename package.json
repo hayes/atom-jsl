@@ -1,7 +1,7 @@
 {
   "name": "JSL",
   "main": "./lib/jsl",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "JSL javascript linter for atom.",
   "activationEvents": [
