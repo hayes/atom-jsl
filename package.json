@@ -1,0 +1,16 @@
+{
+  "name": "jsl",
+  "main": "./lib/jsl",
+  "version": "0.0.0",
+  "private": true,
+  "description": "JSL javascript linter for atom.",
+  "activationEvents": ["jsl:toggle"],
+  "repository": "https://github.com/mghayes/atom-jsl",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "jsl": "0.1.*"
+  }
+}

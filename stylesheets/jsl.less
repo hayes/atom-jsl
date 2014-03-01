@@ -1,0 +1,36 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.gutter .line-number.cursor-line-no-selection.jsl-error,
+.gutter .line-number.jsl-error {
+  background-color: #BB2222;
+  position: relative;
+  overflow: visible;
+}
+
+.editor .gutter, .gutter .line-numbers {
+  overflow: visible;
+}
+
+.editor .gutter .line-number:hover {
+  opacity: 1;
+}
+
+.gutter .line-number.jsl-error:hover:after {
+   content: attr(data-error);
+   position: absolute;
+   display: inline;
+   top: 0;
+   left: 0;
+   background-color: #303030;
+   color: #EEEEEE;
+   padding: 10px;
+   opacity: 1;
+   width: auto;
+   z-index: 9999;
+   width: 200px;
+   text-align: left;
+}
