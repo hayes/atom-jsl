@@ -1,3 +1,3 @@
-# jsl package
+# JSL for Atom
 
-JSL javascript linter for atom.
+an Atom plugin for the JSL javascript linter.
