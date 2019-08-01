@@ -1,3 +1,7 @@
+# DEPRICATED #
+
+This plugin is no longer maintaiined.  I would recomend looking at https://atom.io/packages/linter-eslint
+
 # JSL for Atom
 
 an Atom plugin for the JSL javascript linter.
